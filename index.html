@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="HTML5 影片顯示牆" />
+        <meta property="og:description" content="影片顯示牆適用於播放影音、廣告、會議或現場活動等，以精彩、專業的螢幕吸引客戶的注意力。" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="css/video-wall.css" />
+        <title>HTML5 影片顯示牆</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Final Fantasy VII 重製版</h1>
+            <p>本作的高水準重製，全新動畫跟與語音演出，讓角色們更有魅力，其互動細節與戰鬥設計也給予玩家截然不同的感受。</p>
+        </div>
+        <div class="panels">
+            <div class="panel">
+                <video loop="loop" preload="auto" muted="muted" poster="images/ps4-final-fantasy-vii-remake-cloud.jpg">
+                    <source src="video/ps4-final-fantasy-vii-remake-cloud.mp4" type="video/mp4" />
+                </video>
+                <div class="overlay">
+                    <h1>克勞德．史特萊夫</h1>
+                    <p>一位有著金髮陸行鳥頭、藍色瞳孔的青年，身上服裝及武器「毀滅劍」則是摯友的遺物。</p>
+                </div>
+            </div>
+            <div class="panel">
+                <video loop="loop" preload="auto" muted="muted" poster="images/ps4-final-fantasy-vii-remake-aerith.jpg">
+                    <source src="video/ps4-final-fantasy-vii-remake-aerith.mp4" type="video/mp4" />
+                </video>
+                <div class="overlay">
+                    <h1>愛麗絲．根斯布魯</h1>
+                    <p>住在伍番街貧民窟的賣花女孩。在第一號魔晄爐爆炸的夜晚與克勞德相遇。擁有能夠聽到星之聲的特殊能力。</p>
+                </div>
+            </div>
+            <div class="panel">
+                <video loop="loop" preload="auto" muted="muted" poster="images/ps4-final-fantasy-vii-remake-tifa.png">
+                    <source src="video/ps4-final-fantasy-vii-remake-tifa.mp4" type="video/mp4" />
+                </video>
+                <div class="overlay">
+                    <h1>蒂法．羅克哈特</h1>
+                    <p>反神羅組織雪崩的成員。七番街貧民窟的酒吧"第七天堂"的管理者。</p>
+                </div>
+            </div>
+            <div class="panel">
+                <video loop="loop" preload="auto" muted="muted" poster="images/ps4-final-fantasy-vii-remake-barret.jpg">
+                    <source src="video/ps4-final-fantasy-vii-remake-barret.mp4" type="video/mp4" />
+                </video>
+                <div class="overlay">
+                    <h1>巴雷特．瓦勒斯</h1>
+                    <p>反神羅組織雪崩的隊長。因為經常進行過激的活動，將團隊置於危險之中，而被雪崩開除。</p>
+                </div>
+            </div>
+            <div class="panel">
+                <video loop="loop" preload="auto" muted="muted" poster="images/ps4-final-fantasy-vii-remake-sephiroth.jpg">
+                    <source src="video/ps4-final-fantasy-vii-remake-sephiroth.mp4" type="video/mp4" />
+                </video>
+                <div class="overlay">
+                    <h1>賽菲羅斯</h1>
+                    <p>有史以來最強的戰士，在戰爭中表現出驚人的戰鬥能力，被大家稱為英雄。</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" defer></script>
+        <script src="js/video-wall.js" defer></script>
+    </body>
+</html>
